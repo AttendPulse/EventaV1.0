@@ -1,0 +1,166 @@
+
+/** rating-section **/
+
+
+.rating-section{
+  position: relative;
+}
+
+.rating-section .inner-container{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #F9F9F9;
+}
+
+.rating-block-one{
+  position: relative;
+  display: block;
+  padding: 26px 30px 26px 75px;
+}
+
+.rating-block-one:before{
+  position: absolute;
+  content: '';
+  background: #D9D9D9;
+  width: 1px;
+  height: 40px;
+  top: 30px;
+  right: -15px;
+}
+
+.rating-block:last-child .rating-block-one:before{
+  display: none;
+}
+
+.rating-block-one .inner-box{
+  position: relative;
+  display: block;
+  padding-left: 55px;
+}
+
+.rating-block-one .inner-box .icon-box{
+  position: absolute;
+  left: 0px;
+  top: 4px;
+}
+
+.rating-block-one .inner-box h5{
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.rating-block-one .inner-box .rating-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.rating-block-one .inner-box .rating-box li{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFBD1F;
+  margin-right: 5px;
+}
+
+.rating-block-one .inner-box .rating-box li:last-child{
+  margin: 0px !important;
+}
+
+.rating-block-one .inner-box .rating-box li span{
+  color: #6A6A6A;
+}
+
+
+
+/** rtl-css **/
+
+.rtl .rating-block-one .inner-box{
+  padding-left: 0px;
+  padding-right: 55px;
+}
+
+.rtl .rating-block-one .inner-box .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .rating-block-one .inner-box .rating-box li{
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .rating-section{
+    padding: 0px 0px 70px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .rating-block-one{
+    padding-left: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

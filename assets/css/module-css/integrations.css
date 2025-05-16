@@ -1,0 +1,374 @@
+
+/** integrations-section **/
+
+
+.integrations-section{
+  position: relative;
+}
+
+.integrations-section .logo-list li{
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-right: 90px;
+}
+
+.integrations-section .logo-list li:last-child{
+  margin-right: 0px !important;
+}
+
+.integrations-section .logo-list li a{
+  position: relative;
+  display: inline-block;
+}
+
+.integrations-section .logo-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  -moz-animation: scroll-left 90s linear infinite;
+  -webkit-animation: scroll-left 90s linear infinite;
+  animation: scroll-left 90s linear infinite;
+}
+
+
+/** integrations-style-two **/
+
+.integrations-style-two{
+  position: relative;
+  padding: 60px 0px 210px 0px;
+}
+
+.integrations-style-two .outer-container{
+  position: relative;
+  transform: rotate(-5deg);
+}
+
+.integrations-style-two .list-item{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  -moz-animation: scroll-left 190s linear infinite;
+  -webkit-animation: scroll-left 190s linear infinite;
+  animation: scroll-left 190s linear infinite;
+  transition: all 500ms ease;
+}
+
+.integrations-style-two .list-item li{
+  position: relative;
+  display: inline-block;
+  width: 290px;
+  background: #fff;
+  box-shadow: 0px 5px 50px 0px #00000014;
+  border-radius: 80px;
+  padding: 30px 50px 30px 100px;
+  margin-right: 30px;
+}
+
+.integrations-style-two .list-item li .author-image{
+  position: absolute;
+  display: inline-block;
+  left: 15px;
+  top: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.integrations-style-two .list-item li .author-image img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.integrations-style-two .list-item li h4{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.integrations-style-two .list-item li button{
+  position: absolute;
+  display: inline-block;
+  top: 34px;
+  right: 15px;
+  font-size: 20px;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.integrations-style-two .list-item li button:hover{
+  color: var(--theme-color);
+}
+
+.integrations-style-two .pattern-layer,
+.integrations-style-five .pattern-layer{
+  position: absolute;
+  left: 0px;
+  top: -500px;
+  width: 100%;
+  height: 1397px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/** integrations-style-three **/
+
+.integrations-style-three{
+  position: relative;
+}
+
+.integrations-style-three .inner-container{
+  position: relative;
+  display: block;
+}
+
+.integrations-style-three .list-item{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.integrations-style-three .list-item li a{
+  position: relative;
+  display: inline-block;
+  width: 118px;
+  height: 118px;
+  line-height: 118px;
+  background: #fff;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 10px 50px 0px #0000000D;
+}
+
+
+/** integrations-style-four **/
+
+.integrations-style-four{
+  position: relative;
+}
+
+.integrations-style-four .logo-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.integrations-style-four .logo-list li{
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.integrations-style-four .logo-list li:last-child{
+  margin-right: 0px;
+}
+
+.integrations-style-four .logo-list li a{
+  position: relative;
+  display: inline-block;
+  background: #F5F7F9;
+  border-radius: 10px;
+}
+
+.integrations-style-four .logo-list li a:hover{
+  background: #fff;
+  box-shadow: 0px 10px 50px 0px #00000014;
+}
+
+.integrations-style-four .inner-container{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+
+/** integrations-style-five **/
+
+.integrations-style-five {
+  position: relative;
+  padding: 60px 0px 210px 0px;
+}
+
+.integrations-style-five .outer-container{
+  position: relative;
+  transform: rotate(-5deg);
+}
+
+.integrations-style-five .list-item{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  -moz-animation: scroll-left 190s linear infinite;
+  -webkit-animation: scroll-left 190s linear infinite;
+  animation: scroll-left 190s linear infinite;
+  transition: all 500ms ease;
+}
+
+.integrations-style-five .list-item li{
+  position: relative;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 20px 20px 20px 75px;
+  margin-right: 30px;
+}
+
+.dark-home .integrations-style-five .list-item li{
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  box-shadow: none;
+}
+
+.integrations-style-five .list-item li .icon{
+  position: absolute;
+  left: 33px;
+  top: 21px;
+}
+
+.integrations-style-five .list-item li h4{
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.dark-home .integrations-style-five .list-item li h4{
+  color: #A9A7B0;
+}
+
+.integrations-style-five .list-item li{
+  background: #fff;
+  box-shadow: 0px 5px 50px 0px #0000000F;
+}
+
+
+
+/** rtl-css **/
+
+.rtl .integrations-section{
+  direction: ltr;
+}
+
+.rtl .integrations-style-two,
+.rtl .integrations-style-five{
+  direction: ltr;
+  text-align: right;
+}
+
+.rtl .integrations-style-four .logo-list li{
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.rtl .integrations-style-four .logo-list li:last-child{
+  margin-left: 0px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+  .integrations-style-three .list-item{
+    display: block;
+  }
+
+  .integrations-style-three .list-item li{
+    margin-bottom: 30px;
+  }
+
+  .integrations-style-three .list-item li:last-child{
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .integrations-section{
+    padding-bottom: 70px;
+  }
+
+  .integrations-style-two,
+  .integrations-style-five{
+    padding: 0px 0px 70px 0px;
+  }
+
+  .integrations-style-three{
+    padding-bottom: 70px;
+  }
+
+  .integrations-style-four .inner-container{
+    padding: 0px 0px 40px 0px;
+  }
+
+  .integrations-style-four .logo-list{
+    display: block;
+  }
+
+  .integrations-style-four .logo-list li{
+    float: left;
+  }
+
+  .rtl .integrations-style-four .logo-list li{
+    float: right;
+  }
+
+  .integrations-style-four{
+    padding-bottom: 70px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
