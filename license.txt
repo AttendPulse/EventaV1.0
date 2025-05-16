@@ -1,0 +1,31 @@
+AsliceCode - Web Development & Digital Solutions
+================================================
+Website: https://aslicecode.com
+Developer: Harsh
+
+About:
+AsliceCode is a platform where you can find high-quality website templates, digital tools, and resources. 
+We provide professional and user-friendly web solutions.
+
+Services:
+- Website Development
+- UI/UX Design
+- Frontend Development
+- Web Templates & Portfolio Source Code
+- Digital Marketing Solutions
+
+License Agreement:
+------------------
+1. This source code is provided for personal and commercial use only.
+2. Redistribution or resale of this code without permission is not allowed.
+3. Please give proper credit: "Developed by Harsh - AsliceCode"
+4. For any customization or queries, feel free to contact us.
+
+Contact:
+--------
+📧 Email: aslicecode@gmail.com  
+🌐 Website: https://aslicecode.com  
+📷 Instagram: instagram/aslicecode  
+🎥 YouTube: youtube/@aslicecode  
+
+Thank you for using AsliceCode!
