@@ -1,0 +1,99 @@
+
+/** award-section **/
+
+
+.award-section{
+  position: relative;
+}
+
+.award-section .award-list li{
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-right: 75px;
+  margin-bottom: 30px;
+}
+
+.award-section .award-list li:last-child{
+  margin-right: 0px;
+}
+
+
+
+/** rtl-css **/
+
+.rtl .award-section .award-list li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 70px;
+}
+
+.rtl .award-section .award-list li:last-child{
+  margin-left: 0px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .award-section{
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

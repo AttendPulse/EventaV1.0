@@ -1,0 +1,115 @@
+
+/** instagram-section **/
+
+
+.instagram-section{
+  position: relative;
+}
+
+.instagram-section .image-box{
+  position: relative;
+  display: block;
+}
+
+.instagram-section .image-box .image{
+  position: relative;
+  display: block;
+  border-radius: 10px;
+}
+
+.instagram-section .image-box .image img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.instagram-section .image-box a{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(0,0);
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  line-height: 130px;
+  background: rgba(0, 0, 0, 0.50);
+  border-radius: 50%;
+  text-align: center;
+}
+
+.instagram-section .image-box a img{
+  display: inline-block;
+}
+
+.instagram-section .image-box:hover a{
+  transform: translate(-50%,-50%) scale(1,1);
+}
+
+
+
+/** rtl-css **/
+
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

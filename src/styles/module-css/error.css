@@ -1,0 +1,142 @@
+
+/** error-section **/
+
+
+.error-section{
+  position: relative;
+  background: #6600FF;
+  padding: 200px 0px 120px 0px;
+}
+
+.error-section .error-image{
+  position: relative;
+  display: block;
+  margin-bottom: 80px;
+}
+
+.error-section h2{
+  display: block;
+  font-size: 48px;
+  line-height: 60px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.error-section .btn-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-section .btn-box .theme-btn.btn-two{
+  color: var(--theme-color);
+  padding: 15px 42px;
+  margin-right: 25px;
+}
+
+.error-section .btn-box .theme-btn.btn-two i{
+  position: relative;
+  top: 2px;
+  margin-right: 6px;
+}
+
+.error-section .btn-box .theme-btn.btn-two:hover{
+  color: #fff;
+  background: var(--secondary-color);
+}
+
+.error-section .btn-box .theme-btn.btn-two:before{
+  background: var(--secondary-color);
+}
+
+.error-section .btn-box .theme-btn.btn-one{
+  background: var(--secondary-color);
+}
+
+.error-section .btn-box .theme-btn.btn-one:hover{
+  background: #fff;
+  color: var(--theme-color);
+}
+
+.error-section .btn-box .theme-btn.btn-one:before{
+  background: #fff;
+}
+
+
+/** rtl-css **/
+
+.rtl .error-section .btn-box .theme-btn.btn-two{
+  margin-right: 0px;
+  margin-left: 25px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .error-section .btn-box{
+    display: block;
+  }
+
+  .error-section .btn-box .theme-btn.btn-two{
+    margin: 0px 0px 20px 0px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

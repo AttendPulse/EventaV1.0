@@ -1,0 +1,243 @@
+
+/** news-section **/
+
+
+.news-section{
+  position: relative;
+}
+
+.news-block-one .inner-box{
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.news-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: var(--secondary-color);
+  border-radius: 20px;
+}
+
+.news-block-one .inner-box .image-box img{
+  width: 1400%;
+  border-radius: 20px;
+  transition: all 500ms ease;
+}
+
+.news-block-one .inner-box:hover .image-box img{
+  transform: scale(1.05);
+  opacity: 0.5;
+}
+
+.news-block-one .inner-box .lower-content{
+  position: relative;
+  display: block;
+  padding-top: 25px;
+}
+
+.news-block-one .inner-box .lower-content .category{
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  background: #F5F0FF;
+  border-radius: 40px;
+  padding: 6px 15px;
+  margin-bottom: 17px;
+}
+
+.news-block-one .inner-box .lower-content h3{
+  display: block;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.news-block-one .inner-box .lower-content h3 a{
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.news-block-one .inner-box .lower-content h3 a:hover{
+
+}
+
+.news-block-one .inner-box .lower-content .post-info{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.news-block-one .inner-box .lower-content .post-info li{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  padding-left: 28px;
+  color: var(--title-color);
+  margin-right: 30px;
+}
+
+.news-block-one .inner-box .lower-content .post-info li:last-child{
+  margin: 0px !important;
+}
+
+.news-block-one .inner-box .lower-content .post-info li a{
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.news-block-one .inner-box .lower-content .post-info li a:hover{
+
+}
+
+.news-block-one .inner-box .lower-content .post-info li i{
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  font-size: 20px;
+}
+
+.news-block-one .inner-box .lower-content h2{
+  display: block;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.news-block-one .inner-box .lower-content h2 a{
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.news-block-one .inner-box .lower-content h2 a:hover{
+  color: var(--theme-color);
+}
+
+.sidebar-page-container .news-block-one .inner-box{
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 10px 50px 0px #0000000D;
+  margin-bottom: 60px;
+}
+
+.sidebar-page-container .news-block-one .inner-box .image-box,
+.sidebar-page-container .news-block-one .inner-box .image-box img{
+  border-radius: 0px;
+}
+
+.sidebar-page-container .news-block-one .inner-box .lower-content{
+  padding: 30px 30px 40px 30px;
+}
+
+.sidebar-page-container .news-block-one .inner-box .lower-content .upper-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-page-container .news-block-one .inner-box .lower-content .upper-box .category{
+  margin-bottom: 0px;
+}
+
+
+
+/** rtl-css **/
+
+
+.rtl .news-block-one .inner-box .lower-content .post-info li{
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.rtl .sidebar-page-container .news-block-one .inner-box .lower-content .upper-box .category{
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .news-section{
+    padding-bottom: 40px;
+  }
+
+  .sidebar-page-container{
+    padding-bottom: 70px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .sidebar-page-container .news-block-one .inner-box .lower-content .upper-box{
+    display: block;
+  }
+
+  .sidebar-page-container .news-block-one .inner-box .lower-content .upper-box .category{
+    margin-bottom: 15px;
+    margin-right: 0px;
+  }
+
+  .rtl .sidebar-page-container .news-block-one .inner-box .lower-content .upper-box .category{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 499px){
+  .news-block-one .inner-box .lower-content .post-info li{
+    margin-right: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
